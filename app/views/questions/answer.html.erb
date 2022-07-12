@@ -1,0 +1,11 @@
+<div class='student container'>
+  <p><%= @question.capitalize %></p>
+<p>-<i>You</i></p>
+</div>
+
+<div class='coach container'>
+  <p><%= @answer %></p>
+  <p>-<i>Your coach</i></p>
+</div>
+
+<%= link_to "Poser une nouvelle question au Stupid Coach", ask_path %>
